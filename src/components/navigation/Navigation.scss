@@ -1,14 +1,17 @@
 @import "../../css/variables.scss";
 
 nav {
-    background-color: $color_black;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
     color: $color_white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    width: 100%;
+    z-index: 2;
     .logo {
-        font-size: $font_titleB;
+        font-size: $font_titleA;
         font-weight: bold;
     }
     .logo_sushi {
@@ -17,12 +20,13 @@ nav {
     ul {
         list-style: none;
         display: flex;
+        
         li {
             margin-left: 20px;
-            padding: 10px;
             a {
-                text-decoration: none;
-                color: $color_white;
+                display: inline-block;
+                padding: 10px;
+                transition: all 0.3s;
                 &:hover {
                     color: $color_red;
                 }
@@ -31,6 +35,9 @@ nav {
         }
         .orderNav {
             border: 1px solid $color_white;
+            border-radius: 10px;
+            // padding: 0px;
+            transition: all 0.3s;
             &:hover {
                 border: 1px solid $color_red;
                 > a {

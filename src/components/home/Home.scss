@@ -1,0 +1,111 @@
+@import "../../css/variables.scss";
+
+.home_container {
+    text-align: center;
+    position: relative;
+    .video_wrap {
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        background-color: $color_black;
+        z-index: -2;
+        video {
+            -webkit-transform: translateX(-50%);
+            left: 50%;
+            max-height: initial;
+            max-width: initial;
+            min-height: 100vh;
+            min-width: 100%;
+            position: absolute;
+            top: 0;
+            transform: translateX(-50%);
+            z-index: -1;
+            opacity: 0.7;
+        }
+    }
+    .home_description {
+        color: $color_white;
+        left: 50%;
+        padding: 0 50px;
+        position: absolute;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        width: 100%;
+        z-index: 2;
+        h1 {
+            font-size: $font_titleA;
+        }
+        .buttons {
+            margin-top: 50px;
+            position: relative;
+            .button{
+                display: inline-block;
+                width: 150px;
+                border: 1px solid $color_white;
+                padding: 20px;
+                margin: 0px 20px;
+                border-radius: 10px;
+                transition: all 0.3s;
+                &:hover {
+                    background-color: $color_black;
+                    border: 1px solid $color_black;
+                    color: $color_red;
+                }
+            }
+        }
+    }
+    .down_arrow_button {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        display: inline-block;
+        // z-index: 2;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        padding-top: 70px;
+        span {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 24px;
+            height: 24px;
+            margin-left: -12px;
+            border-left: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            -webkit-animation: sdb 1.5s infinite;
+            animation: sdb 1.5s infinite;
+            box-sizing: border-box;
+        }
+        @-webkit-keyframes sdb {
+            0% {
+                -webkit-transform: rotate(-45deg) translate(0, 0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+                opacity: 0;
+            }
+        }
+        @keyframes sdb {
+            0% {
+                transform: rotate(-45deg) translate(0, 0);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: rotate(-45deg) translate(-20px, 20px);
+                opacity: 0;
+            }
+        }
+    }
+
+}
