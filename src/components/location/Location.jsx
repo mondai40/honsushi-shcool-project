@@ -4,7 +4,7 @@ import "./Location.scss";
 class Location extends React.Component {
     render() {
         return(
-            <div>Order component</div>
+            <div>Location component</div>
         );
     }
 }

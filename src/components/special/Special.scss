@@ -1,0 +1,123 @@
+// @import "../../css/variables.scss";
+
+// .special_container {
+//     height: 100vh;
+//     width: 100%;
+//     display: grid;
+//     grid-template-areas: "special_left special_right";
+//     text-align: center;
+//     border-top: 1px solid #dadada;
+//     border-bottom: 1px solid #dadada;
+//     .special_left {
+//         grid-area: special_left;
+//         display: grid;
+//         align-content: center;
+//         h1 {
+//             font-size: $font_titleA;
+//         }
+//         a {
+//             color: $color_black;
+//             padding-top: 70px;
+//             position: relative;
+//             span {
+//                 position: absolute;
+//                 top: 25%;
+//                 left: 45%;
+//                 width: 24px;
+//                 height: 24px;
+//                 margin-left: -12px;
+//                 border-right: 1px solid $color_black;
+//                 border-bottom: 1px solid $color_black;
+//                 transform: rotate(-45deg);
+//                 -webkit-transform: rotate(-45deg);
+//                 -webkit-animation: rightArrowFadeIn 1.5s infinite;
+//                 animation: rightArrowFadeIn 1.5s infinite;
+//                 box-sizing: border-box;
+//             }
+//             @-webkit-keyframes rightArrowFadeIn {
+//                 0% {
+//                     -webkit-transform: rotate(-45deg) translate(0, 0);
+//                     opacity: 0;
+//                 }
+//                 50% {
+//                     opacity: 1;
+//                 }
+//                 100% {
+//                     -webkit-transform: rotate(-45deg) translate(20px, 20px);
+//                     opacity: 0;
+//                 }
+//             }
+//             @keyframes rightArrowFadeIn {
+//                 0% {
+//                     transform: rotate(-45deg) translate(0, 0);
+//                     opacity: 0;
+//                 }
+//                 50% {
+//                     opacity: 1;
+//                 }
+//                 100% {
+//                     transform: rotate(-45deg) translate(20px, 20px);
+//                     opacity: 0;
+//                 }
+//             }
+//         }
+//     }
+//     .special_right {
+//         grid-area: special_right;
+//         display: grid;
+//         align-content: center;
+//         color: $color_white;
+//         background-color: $color_black;
+//         h1 {
+//             font-size: $font_titleA;
+//         }
+//         a {
+//             padding-top: 70px;
+//             position: relative;
+//             span {
+//                 position: absolute;
+//                 top: 25%;
+//                 left: 55%;
+//                 width: 24px;
+//                 height: 24px;
+//                 margin-left: -12px;
+//                 border-left: 1px solid $color_white;
+//                 border-bottom: 1px solid $color_white;
+//                 transform: rotate(45deg);
+//                 -webkit-transform: rotate(45deg);
+//                 -webkit-animation: leftArrowFadeIn 1.5s infinite;
+//                 animation: leftArrowFadeIn 1.5s infinite;
+//                 box-sizing: border-box;
+//             }
+//             @-webkit-keyframes leftArrowFadeIn {
+//                 0% {
+//                     -webkit-transform: rotate(45deg) translate(0, 0);
+//                     opacity: 0;
+//                 }
+//                 50% {
+//                     opacity: 1;
+//                 }
+//                 100% {
+//                     -webkit-transform: rotate(45deg) translate(-20px, 20px);
+//                     opacity: 0;
+//                 }
+//             }
+//             @keyframes leftArrowFadeIn {
+//                 0% {
+//                     transform: rotate(45deg) translate(0, 0);
+//                     opacity: 0;
+//                 }
+//                 50% {
+//                     opacity: 1;
+//                 }
+//                 100% {
+//                     transform: rotate(45deg) translate(-20px, 20px);
+//                     opacity: 0;
+//                 }
+//             }
+//         }
+//     }
+//     .red_letter {
+//         color: $color_red;
+//     }
+// }

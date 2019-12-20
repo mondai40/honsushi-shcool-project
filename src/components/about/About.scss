@@ -1,0 +1,30 @@
+@import "../../css/variables.scss";
+
+.about_container {
+    padding: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "sushiImage description description";
+    column-gap: 50px;
+    .about_left {
+        grid-area: sushiImage;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        img {
+            width: 200px;
+        }
+    }
+    .about_right {
+        grid-area: description;
+        h1 {
+            font-size: $font_titleA;
+            margin-bottom: 20px;
+            .heading_sushi {
+                color: $color_red;
+            }
+        }
+        p {
+            font-size: $font_paragraph;
+        }
+    }
+}
