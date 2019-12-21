@@ -2,13 +2,15 @@
 
 nav {
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0);
     color: $color_white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    width: 100%;
     z-index: 3;
     transition: all 0.3s;
     .logo {

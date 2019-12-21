@@ -12,7 +12,7 @@ class Navigation extends React.Component {
                         <li><a href="#about">ABOUT</a></li>
                         <li><a href="#special">SPECIAL</a></li>
                         <li><a href="#location">LOCATION</a></li>
-                        <li className="orderNav"><a href="#ORDER">ORDER</a></li>
+                        <li className="orderNav"><a href="#order">ORDER</a></li>
                     </ul>
                 </div>
             </nav>
