@@ -2,9 +2,12 @@
 
 .order_logo {
     width: 20%;
-    height: 300px;
-    padding-bottom: 100%;
+    text-align: center;
     img {
         width: 80%;
+        transition: all 0.3s;
+        &:hover {
+            width: 100%;
+        }
     }
 }

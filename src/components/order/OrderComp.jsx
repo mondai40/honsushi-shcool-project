@@ -1,4 +1,5 @@
 import React from "react";
+import "./OrderComp.scss"
 
 class OrderComp extends React.Component {
     render() {
