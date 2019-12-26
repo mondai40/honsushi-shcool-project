@@ -2,8 +2,14 @@
 
 .order_logo {
     width: 20%;
+    height: 200px;
     text-align: center;
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+    // layout-grid-line:200px;
     img {
+        vertical-align:middle;
         width: 80%;
         transition: all 0.3s;
         &:hover {

@@ -16,7 +16,7 @@ class Order extends React.Component {
                 <div className="order_list">
                     {orderCampList.map((orderCampInfo, index) => {
                         return(
-                            <OrderComp image={orderCampInfo.image} name={orderCampInfo.name} key={index} />
+                            <OrderComp image={orderCampInfo.image} name={orderCampInfo.name} link={orderCampInfo.link} key={index} />
                         );
                         
                     })}
