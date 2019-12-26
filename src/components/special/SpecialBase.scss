@@ -19,7 +19,7 @@
             h1 {
                 font-size: $font_titleA;
             }
-            a {
+            .right_arrow_button {
                 color: $color_black;
                 padding-top: 70px;
                 position: relative;
@@ -88,7 +88,7 @@
             h1 {
                 font-size: $font_titleA;
             }
-            a {
+            .left_arrow_button {
                 padding-top: 70px;
                 position: relative;
                 display: inline-block;

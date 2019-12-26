@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom";
 import "./SpecialHappyHourPage.scss"
 
 class SpecialHappyHourPage extends React.Component {
@@ -18,7 +19,8 @@ class SpecialHappyHourPage extends React.Component {
                 <br />
                 <br />
                 <br />
-                <p onClick={() => this.props.handlePage("base")}>back</p>
+                {/* <p onClick={() => this.props.handlePage("base")}>back</p> */}
+                <Link to="/">back</Link>
             </div>
         );
     }
